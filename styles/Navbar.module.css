@@ -1,12 +1,14 @@
 .container{
-    background-color: #d1411e;
+    background-color: rgb(136, 6, 6);
     height: 100px;
    padding: 0px 60px;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    position: sticky;
+   position:sticky;
     top: 0;
+    
+    cursor: pointer;
 }
 .container li{
     list-style: none;
@@ -38,7 +40,7 @@
     width: 52px;
     height: 52px;
     padding: 13px;
-    color: #d1411e;
+    color:  rgb(136, 6, 6);
 }
 
 .texts{

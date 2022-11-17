@@ -3,10 +3,11 @@ import { BsTelephone } from 'react-icons/bs';
 import style from '../styles/Navbar.module.css'
 import {GiHamburger} from 'react-icons/gi'
 import {BsCart} from 'react-icons/bs'
+import Link from 'next/link';
 
 const Navbar = () => {
     return (
-       <nav>
+     
       <div className={style.container}>
     
         <div className={style.item}>
@@ -22,7 +23,7 @@ const Navbar = () => {
 
         <div className={style.item}>
          <ul className={style.list}>
-         <li className={style.listItem}>Home</li>
+        <Link href='/'> <li  className={style.listItem}>Home</li></Link>
          <li className={style.listItem}>Product</li>
          <li className={style.listItem}>Blog</li>
          <li className={style.logo}><GiHamburger/></li>
@@ -42,7 +43,7 @@ const Navbar = () => {
       </div>
 
 
-       </nav>
+     
     );
 };
 
