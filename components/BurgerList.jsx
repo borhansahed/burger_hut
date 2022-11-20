@@ -8,7 +8,7 @@ const BurgerList = () => {
 
             <div>
                 <h1 className={style.title}>THE BEST BURGER IN TOWN</h1>
-            <p className={style.description}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis adipisci totam cumque, dignissimos libero necessitatibus, illum repellendus, odit doloribus beatae.</p>
+            <p className={style.description}>Don’t be sad. We live in a reality where burgers exist. Following your heart will eventually lead you to burgers. the best burgers are like life — messy and topped with bacon. Let the burger party begin!</p>
 
             <div className={style.wrapper}>
                 <BugerCard/>
@@ -17,6 +17,9 @@ const BurgerList = () => {
                 <BugerCard/>
                 <BugerCard/>
                 <BugerCard/>
+                <BugerCard/>
+                <BugerCard/>
+                
             </div>
             </div>
             
