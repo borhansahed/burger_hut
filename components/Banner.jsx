@@ -7,7 +7,7 @@ const Banner = () => {
     return (
         <>
        <article className={style.container}>
-         <Image src={bannerImage} alt=''></Image>
+         <Image src={bannerImage} alt='' width={300} height={300} ></Image>
        
       </article>
         </>
